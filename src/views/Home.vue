@@ -3,65 +3,46 @@
     <h1 class="hidden">Sign In</h1>
     <h2>Welcome to the Chat App</h2>
 
-    <input type="text" name="username" v-model="username" placeholder="Your Name">
-    
-    <div class="controls">
-      <button
-        :class="{ 'disabled' : canJoin }"
-        :disabled="canJoin"
-        @click="goToChat"
-      >Join Chat!</button>
+    <input type="text" name="username" v-model="username" placeholder="Type your Name here" />
 
-      <button @click="goToChat">Join Anonymously</button>
+    <div class="controls">
+      <button :class="{ disabled: canJoin }" :disabled="canJoin" @click="goToChat">
+        Joinnnnnn Chat!
+      </button>
+
+      <button @click="goToChat">Join Annonymously</button>
+      <button>
+        <i class="fa fa-paper-plane mybutton" aria-hidden="true"></i>
+      </button>
     </div>
   </section>
 </template>
 <script>
 export default {
-  name: 'LoginPage',
+  name: "LoginPage",
 
   data() {
     return {
       loggedIn: false,
-      username: ''
-    }
+      username: "",
+    };
   },
 
   computed: {
-    canJoin: function() {
-      return (this.username.trim() === "")
-    }
+    canJoin: function () {
+      return this.username.trim() === "";
+    },
   },
 
   methods: {
     goToChat() {
-      this.$router.push({ name: "Chat"});
-    }
-  }
-
-}
+      this.$router.push({ name: "Chat", params: { ChatUserName: this.username || "Mr.No Name" } });
+    },
+  },
+};
 </script>
 <style lang="scss">
-.hidden { display: none; }
-.disabled { opacity: 0.4; }
-#welcome-wrapper { text-align: center; }
-#welcome-wrapper h2 { font-size: 1.5em; margin: 30px 0 10px 0; }
-#welcome-wrapper input {
-  margin-top: 1em;
-  font-size: 1em;
-  width: 40vw;
-  text-align: center;
-  padding: 1em;
-  border: thin solid grey;
-  border-radius: 0.4em;
-}
-#welcome-wrapper button {
-  font-size: 1em;
-  background-color: blue;
-  color: white;
-  padding: 0.8em 1.2em;
-  border: thin solid grey;
-  border-radius: 0.4em;
-  margin: 1em  0.5em;
-}
+@import "@/assets/sass/_vars.scss";
+@import "@/assets/sass/_home.scss";
+@import "@/assets/sass/_reset.scss";
 </style>
