@@ -2,6 +2,45 @@
   <div>
     <!--_________HERO START_________ -->
     <img src="../assets/images/herobanner.png" alt="Hero" class="responsive" />
+    <br /><br /><br />
+    <div class="container text-left">
+      <div class="row header">
+        <div class="col-xs-12 text-left">
+          <h3>What is Anti-Biotic Resistance ?</h3>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <!--Video-->
+        <div class="col-sm-8 first-column">
+          <div class="vidcontainer">
+            <div class="Flexible-container">
+              <video width="500" height="322" controls>
+                <source src="../assets/images/02_adclip.mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 second-column">
+          <h4>Over-medication</h4>
+          <p>
+            Superbugs are increasingly appearing in food-MRSA in pork, resistant salmonella in
+            turkey-and have caused widespread outbreaks of food poisoning in the U.S. Because meat
+            and poultry producers are not required to report how they use the drugs-which ones, how
+            much, what animals-documenting a clear connection between.
+          </p>
+          <br />
+          <h4>Anti-Biotics in Food</h4>
+          <p>
+            More antibiotics go into the food we eat than we take ourselves. About 80 percent of all
+            antibiotics sold in the United States are used on farm animals. Most animals are dosed
+            regularly-sometimes even daily-with antibiotic-laced food and water in a practice known
+            as subtherapeutic administration.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
     <!--_________HERO END_________ -->
   </div>
 </template>

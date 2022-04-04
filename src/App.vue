@@ -1,8 +1,5 @@
 <template>
   <section id="app">
-    <header>
-      <h1 class="hidden">Welcome to the FIP</h1>
-    </header>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -20,7 +17,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" @click="goToHome">Home</a></li>
+            <li><a href="#" @click="goToHome">Home</a></li>
             <li><a href="#" @click="goToChat">About</a></li>
             <li><a href="#" @click="goToChallenge">Challenge</a></li>
             <li><a href="#" @click="goToInfo">Information</a></li>
@@ -43,10 +40,10 @@
     <!-- the router view is the container that accepts components to render per route -->
     <router-view></router-view>
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <footer class="text-center">
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
-        © 2021 Copyright: Arko | Kanak | Madhur
+      <div class="text-center p-3 footdiv">
+        <p>© 2022 Copyright: Arko | Kanak | Madhur</p>
       </div>
       <!-- Copyright -->
     </footer>
