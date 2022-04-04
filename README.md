@@ -1,6 +1,6 @@
 # FIP_REDO_ArkoMadhurKanak
 
-![plot](./src/assets/images/screenshots/Anti_Biotic_Resistance3.png.jpg)
+![plot](./src/assets/images/screenshots/Anti_Biotic_Resistance3.png)
 
 FIP Redone for 4th April Morning
 
