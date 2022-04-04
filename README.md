@@ -22,9 +22,6 @@ https://docs.google.com/document/d/11TnPZofiezPtUV6Hzb6Mb0GYFbHT4OdmD6G9egf0zLg/
 
 https://docs.google.com/document/d/1BMOgfRHVi9mewOlcFzokcpSP-YQMfK1Uf--56CqgjwU/edit?usp=sharing
 
-# LINK TO Presentation
-
-https://docs.google.com/presentation/d/1RPZbUI58GB5dKsUU2mxEtoZLUrfaRX8Fjcw4k2vbsxo/edit?usp=sharing
 
 # Assignment Description (project brief for FIP)
 
