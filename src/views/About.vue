@@ -1,12 +1,7 @@
 <template>
   <div class="about">
     <!--__About Start____ -->
-    <div class="container myfont1">
-      <div class="row header">
-        <div class="col-xs-12 text-left">
-          <h2>About our ANTI-BIOTIC RESISTANCE Campaign</h2>
-        </div>
-      </div>
+    <div class="container myfont1 text-left">
       <div class="row">
         <div class="col-sm-7 first-column">
           <img src="../assets/images/aboutimg.jpeg" class="responsive img-rounded" />
